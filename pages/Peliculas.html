@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+   integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/45721989b8.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://kit.fontawesome.com/45721989b8.css" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+  href="https://fonts.googleapis.com/css2?family=Anton&family=Bakbak+One&family=Comfortaa:wght@700&family=Fira+Sans:ital,wght@1,900&family=Pacifico&family=Rowdies:wght@300;400&family=Secular+One&family=Ubuntu:wght@300&display=swap"
+  rel="stylesheet">
+<!-- end fonts -->
+  
+    <link rel="stylesheet" href="../css/estilojoa2.css">
+   <link rel="stylesheet" href="../css/footer.css">
+   <link rel="stylesheet" href="../css/Navbar.css">
+   <link rel="stylesheet" href="../css/Boton.css">
+   <title>Películas</title>
+
+</head>
+
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar sticky-top navbar-expand-lg custom-navbar" data-bs-theme="dark">
+      <div class="container-fluid">
+            <a class="navbar-brand  text-white"  href="../index.html">TVFY</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse text-white" id="navbarNav">
+              <ul class="navbar-nav me-auto ">
+                  <li class="nav-item">
+                      <a class="nav-link active text-white" aria-current="page" href="../index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link active text-white" aria-current="page" href="./Peliculas.html">Peliculas</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link active text-white" aria-current="page" href="./Series.html">Series</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle text-white"role="button" data-bs-toggle="dropdown"
+                          aria-expanded="false">
+                          categorias
+                      </a>
+                      <ul class="dropdown-menu">
+                          <li><a class="dropdown-item text-white" href="./accion.html">Accion</a></li>
+                          <li><a class="dropdown-item text-white" href="./Comedia.html">Comedias</a></li>
+                          <li><a class="dropdown-item text-white" href="./error404.html">Para disfrutar en familia</a></li>
+                      </ul>
+                  </li>
+              </ul>
+              <form class="d-flex " role="search">
+                  <input class="form-control" type="search" placeholder="Buscar pelicula o serie" aria-label="Search">                  
+              </form>
+              <a class="btn custom-botton text-white" href="./subs.html">Suscribirse</a>
+              <button type="button" class="btn btn-danger ms-2 text-white mar " data-bs-target="#exampleModal"
+                  data-bs-toggle="modal">Login</button>
+
+          </div>
+  </nav>
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Iniciar sesion</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  <div class="contanier">
+                      <h6> ¿Tienes una cuenta?</h6>
+                      <form class="p-4 p-md-5 border rounded-3 bg-light">
+                          <div class="form-floating mb-3">
+                              <input type="email" class="form-control" id="floatingInput"
+                                  placeholder="name@example.com">
+                              <label for="floatingInput">Email address</label>
+                          </div>
+                          <div class="form-floating">
+                              <input type="password" class="form-control" id="floatingPassword"
+                                  placeholder="Password">
+                              <label for="floatingPassword">Password</label>
+                              <div class="checkbok mt-3">
+                                  <label>
+                                      <input type="checkbox" value="remember-me">Recuerdame
+                                  </label>
+
+                              </div>
+                          </div>
+                      </form>
+
+                  </div>
+              </div>
+              <div class="modal-footer">
+                  <a href="./error404.html" class="btn btn-secondary">¿Olvisate tu contaseña?</a>
+                  <a href="./error404.html" class="btn text-light custom-botton">iniciar sesion </a>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!--End nabnar -->
+     <section>
+      <div class="container text-light">
+         <H1>Películas</H1>
+      </div>
+      <div class="container ">
+         <div class="row">
+            <div class="text-center col-sm-4 col-md-6 col-lg-4  ">
+               <div class="card custom-card" >
+                  <img src="../img/Peliculas/El niño.jpeg" class="card-img-top custom-card-img" alt="Peli1">
+                  <div class="card-body">
+                     <h5 class="card-title text-light">El niño con el pijama de rayas </h5>
+                     <a href="./Rayas.html" class="btn custom-botton text-light">Ver Ahora</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-sm-4 col-md-6 col-lg-4 text-center">
+               <div class="card custom-card " >
+                  <img src="../img/Peliculas/Feli.jpeg" class="card-img-top custom-card-img" alt="Peli2">
+                  <div class="card-body">
+                     <h5 class="card-title text-light">En Busca de la Felicidad</h5>
+                     <a href="./error404.html" class="btn custom-botton text-light">Ver Ahora</a>
+                  </div>
+               </div>
+            </div>
+            <div class=" col-sm-4 col-md-6 col-lg-4  text-center">
+               <div class="card custom-card" >
+                  <img src="../img/Peliculas/kara.jpeg" class="card-img-top custom-card-img" alt="peli3">
+                  <div class="card-body">
+                     <h5 class="card-title text-light">Karate Kid</h5>
+                     <a href="./error404.html" class="btn custom-botton text-light">Ver Ahora</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-sm-4 col-md-6 col-lg-4 text-center">
+               <div class="card custom-card" >
+                  <img src="../Img/Peliculas/Mada.jpeg" class="card-img-top cards custom-card-img " alt="peli4">
+                  <div class="card-body">
+                     <h5 class="card-title text-light">Madagascar</h5>
+                     <a href="./error404.html" class=" btn custom-botton text-light">Ver Ahora</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-sm-4 col-md-6 col-lg-4 text-center">
+               <div class="card custom-card" >
+                  <img src="../img/Peliculas/Operacion.jpeg" class="card-img-top custom-card-img" alt="Peli5">
+                  <div class="card-body">
+                     <h5 class="card-title text-light">Operacion Caceria 2</h5>
+                     <a href="./error404.html" class="btn custom-botton text-light">Ver Ahora</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-sm-4 col-md-6 col-lg-4  text-center">
+               <div class="card custom-card" >
+                  <img src="../img/Peliculas/vaca.jpeg" class="card-img-top custom-card-img" alt="Peli6">
+                  <div class="card-body">
+                     <h5 class="card-title text-light"> Las Vacaciones de Mr Bean </h5>
+                     <a href="./error404.html" class="btn custom-botton text-light">Ver Ahora</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container">
+         <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-end mt-3">
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+      </div>
+   </section>
+       <!-- Footer  -->
+       <footer>
+        <div class="">
+            <div class="row d-flex">
+                <div class="col-md-4 col-sm-12 text-center">
+                    <h5 class="footer-title"> ¿Quienes Somos?</h5>
+                    <br>
+                    <button type="button" class="botom btn btn-outline-none mt-2"><a href="../pages/Aboutus.html"><img
+                                src="../img/309041_users_group_people_icon.png" alt="about-us" width="50px"
+                                height="50px"></a></button>
+                </div>
+                <div class="col-md-4  col-sm-12 text-center">
+                    <h5 class="footer-title"> Contactanos</i></h5>
+                    <br>
+                    <button type="button" class="botom btn btn-outline-none mt-2"><a href="../pages/contacto.html"><img
+                                src="../img/1564504_email_letter_mail_message_icon.png" alt="Contact" width="50px" height="50px
+                    "></a></button>
+                </div>
+                <div
+                    class="col-md-4 col-sm-12 d-flex justify-content-center align-items-center flex-column text-center mb-0">
+                    <h5 class="footer-title mb-0">Nuestras Redes</i></h5>
+                    <br>
+                    <div class="list-group d-flex text-center mt-0">
+                        <a href="./error404.html" class="list-group-item list-group-item-action mt-0"><i class="bi bi-instagram"></i>
+                            Instagram</a>
+                        <a href="./error404.html" class="list-group-item list-group-item-action mt-1"><i class="bi bi-twitter"></i>
+                            Twitter</a>
+                        <a href="./error404.html" class="list-group-item list-group-item-action mt-1"><i class="bi bi-facebook"></i>
+                            Facebook</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer  -->
+   
+     <!-- scripts -->
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+ <!--End scripts -->
+</body>
+
+</html>

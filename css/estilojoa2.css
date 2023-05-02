@@ -1,0 +1,28 @@
+
+.custom-card-img{
+    border: transparent ;
+     height: 300px;
+    }
+
+body    {
+        background-image: radial-gradient( #241649, #2b1942,#2d293b, #080808);
+      }
+.custom-card {
+    background-color: transparent;
+}
+.custom-img-capitulos {
+    height: 100px;
+    width: 180px;
+    border: transparent;
+    background-color: transparent;
+}
+.custom-button-accordion {
+    background: linear-gradient(90deg,#fa1660,#ff6e00);
+}
+.custom-accordion {
+    border: transparent;
+}
+.video-fluid {
+    width: 90%;
+    max-width: 1024px;
+}

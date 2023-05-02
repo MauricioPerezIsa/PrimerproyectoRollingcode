@@ -1,0 +1,20 @@
+body {
+  background-image: radial-gradient( #241649, #2b1942,#2d293b, #080808);
+}
+
+  .error-img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  error-h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #343a40;
+  }
+  
+  error-p {
+    font-size: 1.5rem;
+    color: #6c757d;
+  }
+  

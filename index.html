@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!--Etiquetas Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--End etiquetas meta  -->
+
+    <!-- links de Bootstrap -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/45721989b8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://kit.fontawesome.com/45721989b8.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <!-- End liks bootstrap -->
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Bakbak+One&family=Comfortaa:wght@700&family=Fira+Sans:ital,wght@1,900&family=Pacifico&family=Rowdies:wght@300;400&family=Secular+One&family=Ubuntu:wght@300&display=swap"
+        rel="stylesheet">
+    <!-- end fonts -->
+
+    <!-- Mis estilos -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/EstiloMatias.css">
+    <link rel="stylesheet" href="./css/seccion3.css">
+    <link rel="stylesheet" href="./css/Boton.css">
+
+    <!-- mis Estilos-->
+    <title>TVFY</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar sticky-top navbar-expand-lg custom-navbar " data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand  text-white"  href="./index.html">TVFY</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-white" id="navbarNav">
+                <ul class="navbar-nav me-auto ">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#Home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="./pages/Peliculas.html">Peliculas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="./pages/Series.html">Series</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            categorias
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item text-white" href="./pages/accion.html">Accion</a></li>
+                            <li><a class="dropdown-item text-white" href="./pages/Comedia.html">Comedias</a></li>
+                            <li><a class="dropdown-item text-white" href="./pages/error404.html">Para disfrutar en familia</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex " role="search">
+                    <input class="form-control" type="search" placeholder="Buscar pelicula o serie" aria-label="Search">
+                </form>
+                <a class="btn text-white custom-botton" href="./pages/subs.html">Suscribirse</a>
+                <button type="button" class="btn btn-danger ms-2 text-white mar " data-bs-target="#exampleModal"
+                    data-bs-toggle="modal">Login</button>
+
+            </div>
+    </nav>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Iniciar sesion</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="contanier">
+                        <h6> ¿Tienes una cuenta?</h6>
+                        <form class="p-4 p-md-5 border rounded-3 bg-light">
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInput"
+                                    placeholder="name@example.com">
+                                <label for="floatingInput">Email address</label>
+                            </div>
+                            <div class="form-floating">
+                                <input type="password" class="form-control" id="floatingPassword"
+                                    placeholder="Password">
+                                <label for="floatingPassword">Password</label>
+                                <div class="checkbok mt-3">
+                                    <label>
+                                        <input type="checkbox" value="remember-me">Recuerdame
+                                    </label>
+
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="./pages/error404.html" class="btn btn-secondary">¿Olvisate tu contaseña?</a>
+                    <a href="./pages/error404.html" class="btn text-light custom-botton">iniciar sesion </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End nabnar -->
+
+    <!-- seccion 1 -->
+    <main class=" main-1" id="Home">
+        <div class="container-fluid wrapper d-flex justify-content-center align-items-center text-center">
+            <div class="row custom-row">
+                <div class="col-12">
+                    <h1 class="text-white">TVFY</h1>
+                    <p class="text-white">Haz clicik aqui para saber de nuestras promociones</p>
+                </div>
+                <div class="col-12 d-flex justify-content-center align-items-center text-center">
+                    <div class="card bg-transparent " style="width: 18rem; border: transparent;">
+                        <div class="card-body py-5   ">
+                            <h5 class="card-title "></h5>
+                            <p class="card-text text-black "></p>
+                            <a href="#seccion-4" class="btn btn-danger"> Here!</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </main>
+<!-- End seccion 1 -->
+   
+
+<!--seccion 2  -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="text-star py-3 text-white">Tendencias</h2>
+
+                </div>
+                <div class="col-12 ">
+                    <div id="carouselExample" class="carousel  slide ">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active ">
+                                <div class="card mb-3 bg-transparent">
+                                    <img src="./img/Tendencias/Tendencias01.jpg" class="card-img-top"
+                                        alt="Tendencias01">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title text-white">Lali</h5>
+                                        <a href="./pages/error404.html" class="btn custom-botton text-light">Ver ahora</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card mb-3 bg-transparent">
+                                    <img src="./img/Tendencias/Tendencias06.jpg" class="card-img-top" 
+                                        alt="Tendencias06">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title text-white"> Modern Family</h5>
+                                        <a href="./pages/error404.html" class="btn custom-botton text-light">Ver Ahora</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item ">
+                                <div class="card mb-3 bg-transparent">
+                                    <img src="./img/Tendencias/Tendencias03.jpg" class="card-img-top "
+                                        alt="Tendencias03">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title text-white">Los Simpson</h5>
+                                        <a href="./pages/error404.html" class="btn custom-botton text-light">Ver Ahora</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card mb-3 bg-transparent">
+                                    <img src="./img/Tendencias/Tendencias05.jpg" class="card-img-top"
+                                        alt="Tendencias05">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title text-white">The walking dead</h5>
+                                        <a href="./pages/error404.html" class="btn custom-botton text-light">Ver ahora</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card mb-3 bg-transparent">
+                                    <img src="./img/Merlireducida (1).jpg" class="card-img-top " 
+                                        alt="Tendencias05">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title text-white">Merlí</h5>
+                                        <a  href="./pages/Merlí.html" class="btn custom-botton text-light">Ver ahora</a>
+                                    </div>
+                                </div>
+                            </div><div class="carousel-item">
+                                <div class="card mb-3 bg-transparent">
+                                    <img src="./img/friends reducida.jpg" class="card-img-top"
+                                        alt="Friends">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title text-white">Friends</h5>
+                                        <a href="./pages/error404.html" class="btn custom-botton text-light">Ver ahora</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- End Seccion2  -->
+ 
+ 
+    <!-- Seccion3-->
+    <section>
+
+        <div class="container">
+            <div class="row row1">
+                <div class="col-12 text-center">
+                    <h1 class="title2">CATEGORIAS SUGERIDAS</h1>
+                </div>
+            </div>
+            <div class="row mt-5 text-center">
+                <div class="col-md-4 col-sm-12"><h2 class="categoria3">Terror</h2>
+                <div class="row1">
+                    <div class="col-12"> <div id="carouselExample1" class="carousel slide">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="./img/Categorias/Terror/pelicula1.webp" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./img/Categorias/Terror/pelicula2.webp" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./img/Categorias/Terror/pelicula3.webp" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample1" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample1" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div></div>
+                </div></div>
+                <div class="col-md-4 col-sm-12"><h2 class="categoria3">Comedia</h2>
+                <div class="row1">
+                    <div class="col-12"><div id="carouselExample2" class="carousel slide">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="./img/Categorias/Comedia/pelicula1.webp" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./img/Categorias/Comedia/pelicula2.webp" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./img/Categorias/Comedia/pelicula3.webp" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div></div>
+                </div></div>
+                <div class="col-md-4 col-sm-12"><h2 class="categoria3">Ciencia Ficcion</h2>
+                <div class="row1">
+                    <div class="col-12"><div id="carouselExample3" class="carousel slide">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="./img/Categorias/Sci-Fi/pelicula1.webp" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./img/Categorias/Sci-Fi/pelicula2.webp" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./img/Categorias/Sci-Fi/pelicula3.webp" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample3" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample3" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div></div>
+                </div></div>
+            </div>
+    
+        </div>
+    </section>
+
+    <!-- End Seccion3  -->
+   
+   
+    <!-- Seccion 4 -->
+    <section id="seccion-4" class="py-5">
+        <div class="container-fluid d-flex justify-content-center">
+            <div class="row">
+                <div class="col-sm-12 col-lg-4">
+                    <div class="card mx-3">
+                        <img src="./img/ImagenesMatias/Logo calidad2.jpeg" class="p-5 card-img-top" alt="logo">
+                        <div class="card-body text-white-50 bg-dark">
+                            <h5 class="card-title text-white">Suscripción Básica</h5>
+                            <h6 class="card-text-price text-white">ARS 1.319/mes</h6>
+                            <p class="card-text">Gran cantidad de contenido en series y películas, estrenos y algunos
+                                clásicos.</p>
+                            <p class="card-text">Calidad 720p</p>
+                            <p class="card-text">Cantidad de dispositivos simultáneos: 1</p>
+                            <a href="./pages/subs.html" class="btn btn-primary d-flex justify-content-center">SUSCRIBETE
+                                YA</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-4">
+                    <div class="card mx-3">
+                        <img src="./img/ImagenesMatias/Logo calidad2.jpeg" class=" p-5 card-img-top" alt="logo">
+                        <div class="card-body text-white-50 bg-dark">
+                            <h5 class="card-title text-white">Suscripción General (Recomendada)</h5>
+                            <h6 class="card-text-price text-white">ARS 1.499/mes</h6>
+                            <p class="card-text">Todas las series y películas disponibles de la plataforma incluyendo
+                                eventos en
+                                vivo.</p>
+                            <p class="card-text">Calidad 1080p</p>
+                            <p class="card-text">Cantidad de dispositivos simultáneos: 2</p>
+                            <a href="./pages/subs.html" class="btn btn-primary d-flex justify-content-center">SUSCRIBETE
+                                YA</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-4">
+                    <div class="card mx-3">
+                        <img src="./img/ImagenesMatias/Logo calidad2.jpeg" class=" p-5 card-img-top" alt="logo">
+                        <div class="card-body text-white-50 bg-dark">
+                            <h5 class="card-title text-white">Suscripción Premium</h5>
+                            <h6 class="card-text-price text-white">ARS 1.729/mes</h6>
+                            <p class="card-text">Todas las series, películas, estrenos en vivo, y todos los
+                                beneficios disponibles.</p>
+                            <p class="card-text">Calidad 4K</p>
+                            <p class="card-text">Cantidad de dispositivos simultáneos: 4</p>
+                            <a href="./pages/subs.html" class="btn btn-primary d-flex justify-content-center">SUSCRIBETE
+                                YA</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="row">
+            <div class="col text-center mt-4 ">
+                <p class="text-white">* El precio podría variar en caso de que el pago se realice en otras plataformas.
+                    Podrían aplicar cargos de terceros.</p>
+            </div>
+        </div>
+        </div>
+
+    </section>
+<!-- Seccion 4  -->
+
+
+    <!-- Footer  -->
+    <footer>
+        <div class="">
+            <div class="row d-flex">
+                <div class="col-md-4 col-sm-12 text-center">
+                    <h5 class="footer-title"> ¿Quienes Somos?</h5>
+                    <br>
+                    <button type="button" class="botom btn btn-outline-none mt-2"><a href="./pages/Aboutus.html"><img
+                                src="./img/309041_users_group_people_icon.png" alt="about-us" width="50px"
+                                height="50px"></a></button>
+                </div>
+                <div class="col-md-4  col-sm-12 text-center">
+                    <h5 class="footer-title"> Contactanos</i></h5>
+                    <br>
+                    <button type="button" class="botom btn btn-outline-none mt-2"><a href="./pages/contacto.html"><img
+                                src="./img/1564504_email_letter_mail_message_icon.png" alt="Contact" width="50px" height="50px
+                    "></a></button>
+                </div>
+                <div
+                    class="col-md-4 col-sm-12 d-flex justify-content-center align-items-center flex-column text-center mb-0">
+                    <h5 class="footer-title mb-0">Nuestras Redes</i></h5>
+                    <br>
+                    <div class="list-group d-flex text-center mt-0">
+                        <a href="./pages/error404.html" class="list-group-item list-group-item-action mt-0"><i class="bi bi-instagram"></i>
+                            Instagram</a>
+                        <a href="./pages/error404.html" class="list-group-item list-group-item-action mt-1"><i class="bi bi-twitter"></i>
+                            Twitter</a>
+                        <a href="./pages/error404.html" class="list-group-item list-group-item-action mt-1"><i class="bi bi-facebook"></i>
+                            Facebook</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer  -->
+
+
+
+    <!-- scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <!--End scripts -->
+</body>
+
+</html>

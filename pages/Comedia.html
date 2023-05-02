@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- links de Bootstrap -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/45721989b8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://kit.fontawesome.com/45721989b8.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <!-- End liks bootstrap -->
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Bakbak+One&family=Comfortaa:wght@700&family=Fira+Sans:ital,wght@1,900&family=Pacifico&family=Rowdies:wght@300;400&family=Secular+One&family=Ubuntu:wght@300&display=swap"
+        rel="stylesheet">
+    <!-- end fonts -->
+
+    <link rel="stylesheet" href="../css/comedia.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/Navbar.css">
+    <link rel="stylesheet" href="../css/Boton.css">
+
+    <title>Comedia</title>
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar sticky-top navbar-expand-lg custom-navbar " data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand  text-white" href="../index.html">TVFY</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-white" id="navbarNav">
+                <ul class="navbar-nav me-auto ">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="./Peliculas.html">Peliculas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="./Series.html">Series</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            categorias
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item text-white" href="./accion.html">Accion</a></li>
+                            <li><a class="dropdown-item text-white" href="./Comedia.html">Comedias</a></li>
+                            <li><a class="dropdown-item text-white" href="./error404.html">Para disfrutar en familia</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex " role="search">
+                    <input class="form-control" type="search" placeholder="Buscar pelicula o serie" aria-label="Search">
+
+                </form>
+                <a class="btn text-white custom-botton" href="./subs.html">Suscribirse</a>
+                <button type="button" class="btn btn-danger ms-2 text-white mar " data-bs-target="#exampleModal"
+                    data-bs-toggle="modal">Login</button>
+
+            </div>
+    </nav>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Iniciar sesion</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="contanier">
+                        <h6> ¿Tienes una cuenta?</h6>
+                        <form class="p-4 p-md-5 border rounded-3 bg-light">
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInput"
+                                    placeholder="name@example.com">
+                                <label for="floatingInput">Email address</label>
+                            </div>
+                            <div class="form-floating">
+                                <input type="password" class="form-control" id="floatingPassword"
+                                    placeholder="Password">
+                                <label for="floatingPassword">Password</label>
+                                <div class="checkbok mt-3">
+                                    <label>
+                                        <input type="checkbox" value="remember-me">Recuerdame
+                                    </label>
+
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="./error404.html" class="btn btn-secondary">¿Olvisate tu contaseña?</a>
+                    <a href="./error404.html" class="btn text-light custom-botton">iniciar sesion </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End nabnar -->
+
+    <!-- Seccion  -->
+    <section>
+        <div class="container text-light">
+            <H1>Comedias</H1>
+        </div>
+        <div class="container ">
+            <div class="row">
+                <div class="text-center col-sm-4 col-md-6 col-lg-4  ">
+                    <div class="card custom-card">
+                        <img src="../img/comedia/peli2.jpeg" class="card-img-top custom-card-img" alt="Sherk">
+                        <div class="card-body">
+                            <h5 class="card-title text-light">13+ 2h 20min</h5>
+                            <p class="card-text text-light">En una misión para recuperar a una hermosa princesa de las
+                                garras de un dragón feroz, un ogro gruñón forma un equipo con un burro ocurrente.
+                            </p>
+                            <a href="../pages/error404.html" class="btn custom-botton text-light">Ver Ahora</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-6 col-lg-4 text-center">
+                    <div class="card custom-card ">
+                        <img src="../img/comedia/peli4.jpeg" class="card-img-top custom-card-img" alt="Minions">
+                        <div class="card-body">
+                            <h5 class="card-title text-light">6+ 1h 40min</h5>
+                            <p class="card-text text-light">Esta colección de cortos de los Minions de la franquicia de
+                                «Mi villano favorito» incluye minipelículas como «Ruedines», «Cachorro» y «Yellow is the
+                                New Black».</p>
+                            <a href="../pages/error404.html" class="btn custom-botton text-light">Ver Ahora</a>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-sm-4 col-md-6 col-lg-4  text-center">
+                    <div class="card custom-card">
+                        <img src="../img/comedia/peli5.jpeg" class="card-img-top custom-card-img"
+                            alt="Robo mundial serie">
+                        <div class="card-body">
+                            <h5 class="card-title text-light">13+ 2h 2min</h5>
+                            <p class="card-text text-light">Un chico termina involucrado en un siniestro plan
+                                corporativo cuando sus padres llevan a casa a un bebé que solo habla de negocios cuando
+                                ellos no están.</p>
+                            <a href="../pages/error404.html" class="btn custom-botton text-light">Ver Ahora</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-6 col-lg-4 text-center">
+                    <div class="card custom-card">
+                        <img src="../Img/comedia/peli1.jpeg" class="card-img-top cards custom-card-img "
+                            alt="chiquito pero">
+                        <div class="card-body">
+                            <h5 class="card-title text-light">15+ 1h 37min</h5>
+                            <p class="card-text text-light">Un hombre desesperado por convertirse en padre cree lo que
+                                sea, incluso que un ladrón de joyas con cara de bebé sea un niño abandonado</p>
+                            <a href="./error404.html" class="btn custom-botton text-light">Ver Ahora</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-6 col-lg-4 text-center">
+                    <div class="card custom-card">
+                        <img src="../img/comedia/peli6.jpeg" class="card-img-top custom-card-img" alt="Sexti">
+                        <div class="card-body">
+                            <h5 class="card-title text-light">16+ 1h 39min</h5>
+                            <p class="card-text text-light">Un futuro papá descubre que es sextillizo y se lanza a la
+                                aventura de encontrar a sus cinco compañeros de útero. Marlon Wayans como casi todo el
+                                elenco</p>
+                            <a href="../pages/error404.html" class="btn custom-botton text-light">Ver Ahora</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-6 col-lg-4  text-center">
+                    <div class="card custom-card">
+                        <img src="../img/comedia/peli3.jpeg" class="card-img-top custom-card-img"
+                            alt="¿Y donde estan las rubias?">
+                        <div class="card-body">
+                            <h5 class="card-title text-light">16+ 2h 20min</h5>
+                            <p class="card-text text-light">Dos agentes negros del FBI cuya misión es cuidar a dos
+                                aristócratas cabezas huecas se hacen pasar por dos muchachas blancas para atrapar a los
+                                posibles secuestradores</p>
+                            <a href="../pages/error404.html" class="btn custom-botton text-light">Ver Ahora</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  Fin Seccion  -->
+    <!-- boton  -->
+    <div class="btn-toolbar justify-content-center py-5" role="toolbar" aria-label="Toolbar with button groups">
+        <div class="btn-group me-2" role="group" aria-label="First group">
+
+            <button type="button" class="btn btn-outline-secondary">1</button>
+            <button type="button" class="btn btn-outline-secondary">2</button>
+            <button type="button" class="btn btn-outline-secondary">3</button>
+            <button type="button" class="btn btn-outline-secondary">4</button>
+        </div>
+    </div>
+    <!-- Fin boton  -->
+
+
+
+
+    <!-- Footer  -->
+    <footer>
+        <div class="">
+            <div class="row d-flex">
+                <div class="col-md-4 col-sm-12 text-center">
+                    <h5 class="footer-title"> ¿Quienes Somos?</h5>
+                    <br>
+                    <button type="button" class="botom btn btn-outline-none mt-2"><a href="./Aboutus.html"><img
+                                src="../img/309041_users_group_people_icon.png" alt="about-us" width="50px"
+                                height="50px"></a></button>
+                </div>
+                <div class="col-md-4  col-sm-12 text-center">
+                    <h5 class="footer-title"> Contactanos</i></h5>
+                    <br>
+                    <button type="button" class="botom btn btn-outline-none mt-2"><a href="./contacto.html"><img
+                                src="../img/1564504_email_letter_mail_message_icon.png" alt="Contact" width="50px"
+                                height="50px
+                "></a></button>
+                </div>
+                <div
+                    class="col-md-4 col-sm-12 d-flex justify-content-center align-items-center flex-column text-center mb-0">
+                    <h5 class="footer-title mb-0">Nuestras Redes</i></h5>
+                    <br>
+                    <div class="list-group d-flex text-center mt-0">
+                        <a href="./error404.html" class="list-group-item list-group-item-action mt-0"><i
+                                class="bi bi-instagram"></i>
+                            Instagram</a>
+                        <a href="./error404.html" class="list-group-item list-group-item-action mt-1"><i
+                                class="bi bi-twitter"></i>
+                            Twitter</a>
+                        <a href="./error404.html" class="list-group-item list-group-item-action mt-1"><i
+                                class="bi bi-facebook"></i>
+                            Facebook</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer  -->
+
+
+    <!-- scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <!--End scripts -->
+
+
+</body>
